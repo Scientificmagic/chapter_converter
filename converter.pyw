@@ -6,7 +6,7 @@ from tkinter import filedialog, messagebox
 
 # HH:MM:SS
 # not foolproof, but catches some bad time inputs
-pattern = re.compile('[0-9]{2}:[0-6][0-9]:[0-6][0-9]')
+pattern = re.compile('[0-9]{2}:[0-5][0-9]:[0-5][0-9]')
 
 GUI = None
 if 'PROMPT' in os.environ:
