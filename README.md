@@ -19,7 +19,7 @@ Double-click converter.pyw
 -----------------------------------------------------------------------
 
 ## Youtube Format
-Youtube uses `MM:SS` format. Currently, hours don't seem to be supported.
+Youtube uses `MM:SS` and `HH:MM:SS`format. When creating chapters, you cannot mix formats.
 ```
 00:00 Chapter 1
 00:30 Chapter 2

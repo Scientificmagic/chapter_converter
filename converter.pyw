@@ -2,7 +2,7 @@ import os
 import re
 import sys
 from io import TextIOWrapper
-from tkinter import filedialog, messagebox
+from tkinter import Tk, filedialog, messagebox
 
 # HH:MM:SS
 # not foolproof, but catches some bad time inputs
@@ -61,6 +61,7 @@ def error(message: str) -> None:
 
 
 if __name__ == '__main__':
+    Tk().withdraw()
     files = filedialog.askopenfiles()
     for f in files:
         convert(f)
